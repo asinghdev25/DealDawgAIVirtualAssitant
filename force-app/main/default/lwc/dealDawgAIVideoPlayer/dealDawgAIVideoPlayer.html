@@ -1,0 +1,18 @@
+<template>
+    <lightning-card title="DealDawg 🐾" >
+        <div class="slds-p-around_medium">
+            <template if:true={videoUrl}>
+                <div class="video-container">
+                    <video controls width="90%" height="60%">
+                        <source src={videoUrl} type="video/mp4" />
+                        <track src={subtitleUrl} kind="subtitles" srclang="en" label="English" default />
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </template>
+            <template if:true={isLoading}>
+                <lightning-spinner alternative-text="Loading video..." size="medium"></lightning-spinner>
+            </template>
+        </div>
+    </lightning-card>
+</template>

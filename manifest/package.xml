@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+ <!--<types>
+    <members>Account</members>
+    <members>Opportunity</members>
+    <members>VideoPromptScriptParameter__c</members>
+    <members>UserToDoVideos__c</members>
+    <name>CustomObject</name>
+    </types>-->
+
+    <types>
+        <members>synthesia</members>
+        <name>NamedCredential</name>
+    </types>
+    <types>
+        <members>DealDawgAIPromptTemplate</members>
+        <name>GenAiPromptTemplate</name>
+    </types>
+    <types>
+        <members>synthesiaExt</members>
+        <name>ExternalCredential</name>
+    </types>
+    <types>
+        <members>SynthesiaExternal</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Synthesia</members>
+        <name>CspTrustedSite</name>
+    </types>
+    <version>63.0</version>
+</Package>
